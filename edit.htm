@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SPPT - Edit</title>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="/static/loadjs.js"></script>
+	<link rel="stylesheet" type="text/css" href="/static/edit.css" />
+</head>
+<body>
+	<div id="dashboard">
+		<ul id="btnWidgets">
+			<li id="text">TEXT</li>
+			<li id="image">IMAGE</li>
+			<li id="video">VIDEO</li>
+		</ul>
+	</div>
+	<div id="main"></div>
+	<div id="control-panel">
+		<ul id="btnControls">
+			<li id="new">New</li>
+			<li id="save">Save</li>
+			<li id="play">Play</li>
+		</ul>
+	</div>
+	<div id="slides">
+		<?snp $ppt ?>
+	</div>
+	<script type="text/javascript">
+	loadJS(['/static/util.js', '/static/widget.js', '/static/start.js?v=4']);
+	</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+ul {
+	list-style-type: none;
+}
+
+/* Widgets */
+.widget {
+	display: inline-block;
+	margin: 1px;
+	padding: 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.widget.hover {
+	border: 1px solid #bbb;
+	margin: 0;
+}
+
+/* Functiion */
+#main {
+	width: 1024px;
+	height: 568px;
+	position: absolute;
+	left: 50%;
+	margin-left: -512px;
+	background: #303030;
+	color: #fff;
+}
+#dashboard {
+	position: fixed;
+	top: 10px;
+	left: -1px;
+	width: 100px;
+	height: 768px;
+}
+#dashboard ul li {
+	width: 80px;
+	font-weight: bold;
+	font-weight: 700;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #2b79b8;
+	background: #47a9f8;
+	text-align: center;
+	color: #fff;
+	padding: 15px 10px;
+	margin-bottom: 8px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.5),0 1px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 1px rgba(255,255,255,0.5),0 1px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+#dashboard ul li.active {
+	background-color: red;
+}
+#control-panel {
+	position: fixed;
+	top: 10px;
+	right: -1px;
+	width: 100px;
+	height: 768px;
+}
+#control-panel ul li {
+	width: 60px;
+	height: 40px;
+	border: 1px solid #bbb;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 2px;
+}
+#slides {
+	position: absolute;
+	top: 600px;
+	width: 100%;
+	height: 140px;
+	border-top: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	padding:10px;
+	background: #f9f9f9;
+	margin-bottom: 20px;
+}
+#slides ul li {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	border: 1px solid #CCC;
+	background: #47a9f8;
+}
